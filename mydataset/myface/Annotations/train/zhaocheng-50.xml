@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<annotation>
+    <folder>myface</folder>
+    <filename>zhaocheng-50.jpg</filename>
+    <size>
+        <width>960</width>
+        <height>544</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>zhaocheng</name>
+        <bndbox>
+            <xmin>339</xmin>
+            <ymin>98</ymin>
+            <xmax>494</xmax>
+            <ymax>253</ymax>
+        </bndbox>
+    </object>
+</annotation>

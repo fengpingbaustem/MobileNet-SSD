@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<annotation>
+    <folder>myface</folder>
+    <filename>yifeng-66.jpg</filename>
+    <size>
+        <width>960</width>
+        <height>544</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>yifeng</name>
+        <bndbox>
+            <xmin>425</xmin>
+            <ymin>139</ymin>
+            <xmax>554</xmax>
+            <ymax>268</ymax>
+        </bndbox>
+    </object>
+</annotation>

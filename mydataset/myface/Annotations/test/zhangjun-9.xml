@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<annotation>
+    <folder>myface</folder>
+    <filename>zhangjun-9.jpg</filename>
+    <size>
+        <width>960</width>
+        <height>544</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>zhangjun</name>
+        <bndbox>
+            <xmin>339</xmin>
+            <ymin>182</ymin>
+            <xmax>468</xmax>
+            <ymax>311</ymax>
+        </bndbox>
+    </object>
+</annotation>
