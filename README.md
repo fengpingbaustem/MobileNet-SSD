@@ -13,7 +13,7 @@ MobileNet-SSD|72.7|[train](https://drive.google.com/open?id=0B3gersZ2cHIxVFI1Rjd
 
 
 ### Train your own dataset
-1. Convert your own dataset to lmdb database (follow the SSD README), and create symlinks to current directory.
+1. Convert your own dataset to lmdb database (follow the SSD README or simplely using the scripts in mydataset folder), and create symlinks to current directory.
 ```
 ln -s PATH_TO_YOUR_TRAIN_LMDB trainval_lmdb
 ln -s PATH_TO_YOUR_TEST_LMDB test_lmdb
