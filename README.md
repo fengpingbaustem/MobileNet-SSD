@@ -31,3 +31,7 @@ There are 2 primary differences between this model and [MobileNet-SSD on tensorf
 
 ### Reproduce the result
 I trained this model from a MobileNet classifier([caffemodel](https://drive.google.com/open?id=0B3gersZ2cHIxZi13UWF0OXBsZzA) and [prototxt](https://drive.google.com/open?id=0B3gersZ2cHIxWGEzbG5nSXpNQzA)) converted from [tensorflow](http://download.tensorflow.org/models/mobilenet_v1_1.0_224_2017_06_14.tar.gz). I first trained the model on MS-COCO and then fine-tuned on VOC0712. Without MS-COCO pretraining, it can only get mAP=0.68.
+
+### For NCS(if needed)
+1. using command "mvNCCompile example/MobileNetSSD_deploy.prototxt -w example/MobileNetSSD_deploy.caffemodel -s 12 -o graph" to generate the graph file
+
